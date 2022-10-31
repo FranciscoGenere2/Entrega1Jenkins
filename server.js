@@ -3,7 +3,7 @@
 const { Client } = require("pg");
 const express = require("express");
 const app = express();
-const port = 8040;
+const port = 8080;
 
 const client = new Client({
   password: "root",
